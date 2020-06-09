@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="inner-page">
+<div class="wrapper">
+<header class="main-header">
+    <h1 class="main-header__state">Device</h1>
+    <nav class="main-header__navigation">
+        <ul class="main-header__menu">
+            <li class="main-header__item main-header__item--search"><a href="#">Поиск по сайту</a></li>
+            <li class="main-header__item main-header__item--customer"><a href="#">Валентин Петухов</a></li>
+            <li class="main-header__item main-header__item--enter"><a href="#">Войти</a></li>
+            <li class="main-header__item main-header__item--compare"><a href="#">Сравнить</a></li>
+            <li class="main-header__item main-header__item--basket"><a href="#">Корзина</a></li>
+        </ul>
+        <ul class="main-header__references">
+            <li class="main-header__element main-header__element--catalog"><button class="main-header__button"></button><a href="#">Каталог</a></li>
+            <li class="main-header__element"><a href="#">Доставка</a></li>
+            <li class="main-header__element"><a href="#">Гарантия</a></li>
+            <li class="main-header__element"><a href="#">Контакты</a></li>
+        </ul>
+        <div class="main-header__catalog-items visually-hidden">
+            <ul>
+                <li class="main-header__stuffName"><a href="#">Виртуальная реальность</a></li>
+                <li class="main-header__stuffName"><a href="#">Менсподы для селфи</a></li>
+                <li class="main-header__stuffName"><a href="#">Экшн-камеры</a></li>
+            </ul>
+            <ul>
+                <li class="main-header__stuffName"><a href="#">Фитнес браслеты</a></li>
+                <li class="main-header__stuffName"><a href="#">Умные часы</a></li>
+            </ul>
+            <ul>
+                <li class="main-header__stuffName"><a href="#">Квадрокоптеры</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+</div>
+<main class="inner-main">
+    <h1 class="inner-main__state">Моноподы для селфи</h1>
+    <ul class="inner-main__menu">
+        <li class="inner-main__item"><a href="#">Главная</a></li>
+        <li class="inner-main__item inner-main__breadcrufs"><a href="#">Каталог товаров</a></li>
+        <li class="inner-main__item inner-main__breadcrufs"><a href="#">Моноподы для селфи</a></li>
+    </ul>
+    <section class="inner-main__filter">
+        <h3 class="inner-main__filter-state">ФИЛЬТР:</h3>
+        <h3 class="inner-main__sort-state">СОРТИРОВКА:</h3>
+        <ul class="inner-main__references">
+            <li class="inner-main__price"><a href="#">По цене</a></li>
+            <li class="inner-main__type"><a href="#">По типу</a></li>
+            <li class="inner-main__popular"><a href="#">По популярности</a></li>
+        </ul>
+        <ul class="inner-main__triggers">
+            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11" height="10" viewBox="0 0 11 10">
+                <image id="icon-up-dir" class="cls-1" width="11" height="10" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAYAAABi8KSDAAAAgUlEQVQYlX2Q0QrCMAxFz9x0L3uTyXSDBPLg/3+OD8L2JxIJ2rXWCy29N6eBpCGTiXrg1/rc1l3xkMPAOTl12ETdz2Fv4audL8Ax3qfwJWyiHTBln6fIi85XoM1g955/YRPtgfHHsK4x6p/OC1CsMeT5e+jGRAfgXgFTPdJV/RfML7zaCY33/eWNAAAAAElFTkSuQmCC"/>
+            </svg>
+            </a>
+            </li>
+            <li>
+                <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11" height="10" viewBox="0 0 11 10">
+                    <image id="icon-down-dir" width="11" height="10" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAYAAABi8KSDAAAAqUlEQVQYlY2PPw4BQRjFf5YDTPYCJG6h5AJOoiOU6wKUtNQcQG8rN5BJZhJa/wqNLeRbMzLEZr3qvXm/eclXadYbW6BFudIIGPwBivqRtkaW1yXgSluTL4uGQFYAPoCRmBzW1uyBWQE8d/0LdhoDty9QcuJD1Zvz9XKPlZLPnQBOtDUbH8Jl0QQ4On8ApmH5XnbrWazUCegCPW3NLuxrPw5aAG1g+fEKPAEFNC7XxaAA8gAAAABJRU5ErkJggg=="/>
+                </svg>
+            </a>
+            </li>
+        </ul>
+    </section>
+    <div class="box">
+    <aside class="inner-aside">
+        <form action="" class="inner-form">
+            <fieldset class="inner-form__price">
+                <label for = "price" class="inner-form__label inner-form__label--price">Стоимость</label>
+                <input id="price" type="range" class="inner-form__range">
+            </fieldset>
+            <fieldset class="inner-form__color">
+                <label class="inner-form__label inner-form__label--color">Цвет</label>
+                <label class="inner-label">
+                    <input class="input-checkbox visually-hidden" type="checkbox">
+                    <span class="inner-label__span"></span>
+                    Черный
+                </label>
+                <label class="inner-label">
+                    <input class="input-checkbox visually-hidden" type="checkbox">
+                    <span class="inner-label__span"></span>
+                    Белый
+                </label>
+                <label class="inner-label">
+                    <input class="input-checkbox visually-hidden" type="checkbox">
+                    <span class="inner-label__span"></span>
+                    Синий
+                </label>
+                <label class="inner-label">
+                    <input class="input-checkbox visually-hidden" type="checkbox">
+                    <span class="inner-label__span"></span>
+                    Красный
+                </label>
+                <label class="inner-label">
+                    <input class="input-checkbox visually-hidden" type="checkbox">
+                    <span class="inner-label__span"></span>
+                    Розовый
+                </label>
+            </fieldset>
+            <fieldset class="inner-form__bluetooth">
+                <label class="inner-form__label inner-form__blth">Bluetooth</label>
+                <label class="inner-radioLabel">
+                    <input class="visually-hidden inner-radioLabel__input" name="changer" type="radio">
+                    <span class="inner-radioLabel__span"></span>
+                    Есть
+                </label>
+                <label class="inner-radioLabel">
+                    <input class="visually-hidden inner-radioLabel__input" name="changer" type="radio">
+                    <span class="inner-radioLabel__span"></span>
+                    Нет
+                </label>
+            <input class="inner-radioLabel__submit" type="submit" value="показать">
+            </fieldset>
+        </form>
+    </aside>
+    <section class="inner-range">
+        <ul class="inner-range__menu">
+            <li class="inner-range__item">
+                <div class="inner-range__stuff inner-range__amateur">
+                    <div class="inner-range__backSide">
+                        <button class="inner-range__btn">в корзину</button>
+                        <button class="inner-range__add">Добавить к сравнению</button>
+                    </div>
+                </div>
+                <div class="inner-range__wrapper">
+                <p>Любительская селфи-палка</p>
+                <span>500 руб.</span>
+                </div>
+            </li>
+            <li class="inner-range__item">
+                <div class="inner-range__stuff inner-range__professional">
+                    <div class="inner-range__backSide">
+                        <button class="inner-range__btn">в корзину</button>
+                        <button class="inner-range__add">Добавить к сравнению</button>
+                    </div>
+                </div>
+                <div class="inner-range__wrapper">
+                <p>Профессиональная<br> селфи-палка</p>
+                <span>1500 руб.</span>
+                </div>
+            </li>
+            <li class="inner-range__item">
+                <div class="inner-range__stuff inner-range__unsinkable">
+                    <div class="inner-range__backSide">
+                        <button class="inner-range__btn">в корзину</button>
+                        <button class="inner-range__add">Добавить к сравнению</button>
+                    </div>
+                </div>
+                <div class="inner-range__wrapper">
+                <p>Непотопляемая селфи-палка</p>
+                <span>2500руб</span>
+                </div>
+            </li>
+            <li class="inner-range__item">
+                <div class="inner-range__stuff inner-range__follow">
+                    <div class="inner-range__backSide">
+                        <button class="inner-range__btn">в корзину</button>
+                        <button class="inner-range__add">Добавить к сравнению</button>
+                    </div>
+                </div>
+                <div class="inner-range__wrapper">
+                <p>Селфи-палка"Следуй за <br> мной"</p>
+                <span>4900 руб.</span>
+                </div>
+            </li>
+        </ul>
+        <div class="inner-range__references">
+            <button class="inner-range__forward">вперед</button>
+            <ul class="inner-range__pagination">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+            </ul>
+            <button class="inner-range__backward">назад</button>
+        </div>
+    </section>
+    </div>
+</main>
+<footer class="main-footer">
+    <nav class="main-footer__navigation">
+        <div class="flexWrap">
+            <h2 class="main-footer__state">Device</h2>
+            <ul class="main-footer__user-navigation">
+                <li class="main-footer__user-item main-footer__user-item--enter"><a href="#">Войти</a></li>
+                <li class="main-footer__user-item main-footer__user-item--compare"><a href="#">Сравнить</a></li>
+                <li class="main-footer__user-item main-footer__user-item--basket"><a href="#">Корзина</a></li>
+            </ul>
+        </div>
+        <div class="flexWrap address-position">
+            <p class="main-footer__addres">
+                г.Москва ул.Строителей 15
+            </p>
+            <ul class="main-footer__service-menu">
+                <li><a href="#">
+                    доставка
+                </a></li>
+                <li><a href="#">
+                    гарантия
+                </a></li>
+                <li><a href="#">
+                    конакты
+                </a></li>
+            </ul>
+            <p class="main-footer__tekephone">тел. 519-53-60</p>
+        </div>
+        <div class="flexWrap networks__position">
+            <div class="main-footer__figure"></div>
+            <ul class="main-footer__networks">
+                <li class="main-footer__networks-item"><a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    opacity: 0.3;
+                                }
+                            </style>
+                        </defs>
+                        <image id="ФБ" class="cls-1" width="32" height="32" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABzklEQVRYhc2XsUsDMRTGfy+2DpYWBJF2EqSTbkKhky6u/r/OToLg4OBUkILQDoLQ0g726pPUd0cqluaurecHgRAu7/vyknv5IkRCVfeBJnAE1IEDoGKzE2AKjIE3YCgiHzGR1wpQ1QbQBlqAi9T7CQyAnoiMCglQVb+6M+AkknQV+sCziCTRAlTVp7gD1DYkTzEBHkRkvFaAqh4C3WB/twWfgXsReQ/juR/k9R2RYzG7xpEhy4Dt+WXOtPv97QGzYOx6zQL8dtylZyLMwFlO8lcReRKRqYjM0ubXsmZezbjIBNivlve0v+T8PsSJcWapahcIMkk7qnoejO9FzvecjxWrcK0CAkKcFpjT8tzOymtshdsmFtwVq+2xSFYcsvAvqOaIdySqegU0Iifc2klfCVW9ySFg5OxWKwsHbkdVLxaVvOQXqvpp/UcRmfOd9k5hBXawYoUcB32fvbn1mwX5E2dOpixMndmosjB25uHKwpsXMDQP99fwnENn7nVQgoCB507vgF4JAhacCwFmnfs5A/ibtOpbAfJ+atc3tWRF8Lsls4EHK0y7QmL2PONY8gHm2+93JCK15Ut15/89TAIR5T3Nfggp53H6i5DtP8+BLxTjqlLyjeWHAAAAAElFTkSuQmCC"/>
+                    </svg>
+
+                </a></li>
+                <li class="main-footer__networks-item"><a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    opacity: 0.3;
+                                }
+                            </style>
+                        </defs>
+                        <image id="_" data-name="&apos;=]" class="cls-1" width="32" height="32" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACX0lEQVRYhc2X30sUURTHP2cZDCxNS8JFyChfKtJ6EOz/pxB8KIqkB4PMYPfBn5kWufWNI2dqdszrHXcX+8LAwMyc7/ece+73njEyIWkMmAVmgAlgHCji6x5wDBwC20DXzH7kRL5QgKRJYAFoA61Mvb+ADrBhZl8uJUCSZ/cQuJdJeh42gXUz62ULkOQlXgauD0he4ghYM7PDCwVImgZWKus7LHgFVs1srxqvVSOfGBE5EXMlOM4KiDVfHhF5VcRycPULiIYb1pqn4ByPqorKrXZet3sDvY493gQe82n4RR3zkj76Fi0rsJAI/MrMds3spOG1A7xJxD3lLMLh2okXv+ZkLelOJREX/B44SHzSdu4i7DXX4VK4BtyO5yelrsT7zjnbCm+/KswUcbA0hqRb3kyRpdvtbjSr41tmvIninC49A0m+fb6b2U9JXurnFSedA16Y2Vbs8bFMAeOtBsazFOtMZF61cY9ztwwKPM6MWQyj+epINd4ZtOKQyMVUvLdZI/Lz/1PcTzeI12vFJJOLB5IsTOYl8BnY8nsz25fk8e43iHdchMVONqjAE0lv3R2j808R5Euxq44y4x0WMcPNNVDtDTgl6QOwH804HZnnJlJi2wV0PasMN6zb6nxcJdz9duK+PLhSM6f3Tbfw6VVSJ1GFG8Cemb3LyqkfNxPPOs5desBGQsAzSZc9jhcTz53zb4kkLdZKOkpsmtnpUV1d9/UG3TsIjoKLPgExt681NKam6MV4/oejr/Njbl8dkYhyLO/rpf/vx6QioojpddDGbP5rVhNyNT+n/xAy/N9z4Df7Dd2kMZsz/QAAAABJRU5ErkJggg=="/>
+                    </svg>
+
+                </a></li>
+                <li class="main-footer__networks-item"><a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    opacity: 0.3;
+                                }
+                            </style>
+                        </defs>
+                        <image id="Твитер" class="cls-1" width="32" height="32" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACh0lEQVRYhc2X3WtTQRDFf3O9atomAbUPBj+qUlALviiBvin4l4sIhYIPCn0QRfJgG7DQ1jQVa3Bkytx6E+/e3TQJep5KM3fO2d3ZM7NCIlT1CnATWAVawDKQ+9cj4AQYAPtAX0ROUzJHBahqG1gHOkCWqPcXsAd8FJFvFxKgqra6x8C9RNIQesCOiIySBaiqbXEXWJmRvMAQ2BaRQVSAql4DNkvnOy/YDmyJyEE5XzZB3loQOZ5z0zn+FuBn3l0QeVlE17nGBXjBzevM62AcG2MC/KrNWu3TYM05z7d7fcaEVmAf/O6bB1ghPwKablCNCg8xzre5O1wnkNiuz3vgGXC5hvzNhOHsqao54pILelHxXce4M7fXkMMNROQr8Bo4CsRUup2I/PT/2wIPKr47487c20NoebKhi3gHHE/E7oY+VlXLfxu4HghZzQuSAFbMmMw8RETdVnuq2vRzbvgxhWANa61ugbkHhXBoRKp66AKK7T2u2IkqLEV+X84ixmPn97lMPiWakfA81l5tdzZUNXlumMCNWEDm16gOD4Anqhq6hpXwAqwrcMMoc6OI4YtdqylXf6fGOwqcZD5GxWA70Jhi9VY7DxNCB5nPcDHYVX2pqk/LnSxAnrlzXk3Iu2/J+rbCgBvaVfvhx2ROuBsarZy84eQh4ynDLLqf2/SqqtZEblUEmcBP5u11NaCq1mLvAveBSwnkeM5T4U87fl4TrF4r5u3ffZTL3QnbETML4ZX1irPztD9UtVdjm+JE7QsQVaFXNLDyue9EfH1eGDoXYwK8uLYTjGkWjHw8P+cYq3yf27cWJKIYy8d85/97mJRE5D691vXzFEz/NJsQ8m8epxVC5v88B34Dd6HpVXhsYFkAAAAASUVORK5CYII="/>
+                    </svg>
+                </a></li>
+            </ul>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="35" viewBox="0 0 27 35">
+                    <image id="logo-html" width="27" height="35" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAjCAYAAABl/XGVAAADwUlEQVRIia2XV4wPURTGf2SX1btgV32wJBaL6L1GxIvooocg4QFREyJIRF+JEqIEUR48KI9qtBVlV2clJFi7EW2jrbpyNt+VMWb+O39xksnMvXPnfKd859w7pYou4ZdqQAqQDNQH6nmek3VVB94Aubqe6f5Cz881fuvVbWD7pcCUNgCS/oL/dykEnsqIXAMr8qn6DuT5LM6Vtc7iV0BNGZniiYQz2J7rAglexW7wEegl5S+BnxF8eQ88ifG+NFBb4T8DVHBg5s3V/xg+ZHC+ru8OPV6xkC0RkeKSeMAsCnOA+8Ay4CEwyUgWVUFUsK7ADWANFLM3DTgN7AQuAq3+B5gxbhdwXjnoDEwH7gAjgT5AZeA6sAmo8i9gNj8FyAGGAbOBdkCmb5151xqYB0zQ+jFhoQ0CSwesr2yXsubABseoALH59UAqcFJhPgu0iAVWWaG4qvoYBAxVIUeRPHnVA6gKZCvHldy3roN8A14DNbRgBfA5BsAMef0g5H2C1iwHPgC1gETnWaI+NFYtLgEI5e8WsBIoHxJai1JT4IL0/xFGa8BlI4ZsETAXmAncBQbHMKq9Gziwb+oM14AM5S+WbBaRuomhx4CjQEN901hzJ9T1C71gn4BmYtUMdYdRMcCs9vqpwRrz+ouN1l32AveAjsB4oCfwxR/Gj6qX1qqXA8ApGeGXRsAQgW4WoTJEjLECTRXw7y0sqM7uisLj1ZZuBhChrRJvRBiu3GxxRFDo3voVJ/gnJGZpBaAvMA1YCIwGZgHH1V2ygI3xNPOwhXuANmqyj4EuqsNjugYoXHFtUWGe1QEGAuMUwkciTprGYVSPKWGW9VInL1B+7KhwTrkxut8uQW9h0KRrVwXqZ06SlKcFHq/sILNOJLDkNwnQZ/W6Vjn/5Jl/Z9tPmGdm2VKFLV9eWV11Bw6raP1yVmWzyAf0WxxYGR2//JIjRo4RKTJVCoc8614qt71VzH5Jlv5isK9AOTXiOSGkOaAiPah6GqFi3aai3+ctXkmCNt0H0v/VwFpq06uoeN/QmcMvBcqdtaEjuk8PKl7PmWWd9FonauU964/UjlxH491qX69C8hokdmZZDUzUu3x5dxAf9Q8pVNbjfugDy9nUCMVbWuty9N0P7Wcu9MUS9BeDWLVVoTK5opBlBaxN19oOGmdqbXaQRUGSrWPbVLWpDtrrNnn2Ondmuab3b7S+SxBQLM+8YnlYBUzWnOVhh5qxy69tNfNLym8UMCedRHVjrxM7h1jIImmJp2tfVp80dtk/mt1tHM1c4BfH7fcxO5FSlgAAAABJRU5ErkJggg=="/>
+                </svg>
+            </a>
+        </div>
+    </nav>
+</footer>
+<script src="js/catalog.js"></script>
+</body>
+</html>

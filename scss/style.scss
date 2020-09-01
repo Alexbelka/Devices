@@ -69,17 +69,17 @@ p{
 }
 
 .wrapper{
-  width: 1440px;
-  padding-left:140px;
-  padding-right: 140px;
+  width: 1200px;
+  padding-left:20px;
+  padding-right: 20px;
   box-sizing: border-box;
   margin:auto;
 }
 
 .container{
-  width: 1440px;
-  padding-left:140px;
-  padding-right: 140px;
+  width: 1200px;
+  padding-left:20px;
+  padding-right: 20px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -216,6 +216,7 @@ p{
   background: transparent;
   border:none;
   cursor:pointer;
+  outline: none;
 }
 
 .button--rotate{
@@ -640,7 +641,6 @@ li{
 
 //--changer
 .changer {
-  width:1440px;
   height: 288px;
   margin: 200px auto 94px;
   background-color: rgb(229,229,229);
@@ -671,7 +671,6 @@ li{
   height: 8px;
   z-index: -1;
   background-color: #ffc600;
-  //background-color:red;
   left:105px;
   top:20px;
 }
@@ -679,9 +678,6 @@ li{
 .changer-delivery:hover:after{
   background-color: transparent;
 }
-
-
-
 
 
 .changer__slider{
@@ -825,7 +821,6 @@ display:block;
 //section labels --//
 .labels{
   min-width:1068px;
-  margin-left: 60px;
   margin-bottom: 80px;
 }
 
@@ -1011,7 +1006,6 @@ display:block;
 
 //section--main-footer--//
 .main-footer{
-  width:1440px;
   background-color:rgb(70,70,70);
   padding-top: 65px;
   margin: auto ;
@@ -1022,9 +1016,12 @@ display:block;
 }
 
 .main-footer__navigation{
-  width: 1160px;
+  width: 1200px;
   margin: auto;
+  padding-right: 20px;
+  padding-left: 20px;
   padding-bottom: 65px;
+  //box-shadow: inset 0 0 2px 2px red;
 }
 
 .main-footer__user-navigation{
@@ -1054,9 +1051,8 @@ display:block;
 
 .main-footer__networks{
   display: flex;
-  width:160px;
+  min-width:160px;
   justify-content: space-around;
-
 
 }
 
@@ -1255,12 +1251,19 @@ display:block;
 
 
 //inner-page---///
+
+.inner-main{
+  margin: auto;
+}
+
+.inner-main__wrapper{}
+
 .inner-main__menu{
   width:400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 203px;
+  margin-left: 15%;
 }
 
 .inner-main__state{
@@ -1268,7 +1271,7 @@ display:block;
   font-size:48px;
   line-height: 47px;
   font-weight:700;
-  margin-left:203px;
+  margin-left:15%;
   margin-top:40px;
 }
 
@@ -1352,7 +1355,7 @@ display:block;
 
 
 .inner-main__filter{
-  width:1440px;
+
   min-height: 70px;
   display: flex;
   align-items: center;

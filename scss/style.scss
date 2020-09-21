@@ -990,6 +990,11 @@ display:block;
   overflow: hidden;
 }
 
+.contacts__iframe frame{
+  width:100%;
+}
+
+
 .contacts__letter{
   margin-top: 25px;
   font-family: "Gilroy", sans-serif;
